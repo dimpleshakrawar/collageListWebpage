@@ -1,0 +1,15 @@
+:root {
+  --customBlueTextColor: #4bc6e7;
+  --customBlueBgColor: #78bec3;
+  --customOrangeColor: #ff9b48;
+  --customPinkBgColor: #fffae1;
+  --customLightPinkBgColor: #fffae1;
+  --customPinkTextColor: #d67e89;
+  --customLightBlueBgColor: #e6faff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

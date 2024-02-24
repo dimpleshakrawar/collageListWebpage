@@ -1,0 +1,35 @@
+/* table head row  */
+
+.css-15wwp11-MuiTableHead-root .css-1ygcj2i-MuiTableCell-root {
+  color: white;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-right: 2px solid gainsboro;
+}
+
+/* border to table */
+.css-15wwp11-MuiTableHead-root .css-1q1u3t4-MuiTableRow-root {
+  background-color: var(--customBlueBgColor);
+}
+
+/* label size for checkbox */
+.css-j204z7-MuiFormControlLabel-root .MuiFormControlLabel-label {
+  font-size: 13px;
+}
+
+/* padding inside table ::content */
+.css-1q1u3t4-MuiTableRow-root .css-1ex1afd-MuiTableCell-root {
+  padding: 6px;
+  vertical-align: top;
+}
+
+.css-175djje-MuiTableCell-root,
+.css-1u7p8ps-MuiTableCell-root,
+.css-4upzmz-MuiTableCell-root,
+.css-1g5hsq7-MuiTableCell-root {
+  border-right: 2px solid gainsboro;
+}
+
+.css-apqrd9-MuiTableBody-root .css-1q1u3t4-MuiTableRow-root {
+  vertical-align: top;
+}

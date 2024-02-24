@@ -1,0 +1,145 @@
+.tableCollageNameCell {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.image {
+  border-radius: 50%;
+  background-color: black;
+  width: 40px;
+  height: 40px;
+}
+
+.collageNameText {
+  color: #007fff;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.collageLocation {
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.courseDetailsContainer {
+  width: fit-content;
+  padding: 0 4px;
+  background-color: var(--customPinkBgColor);
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.courseDetailsContainer div p {
+  font-size: 13px;
+}
+
+.courseNameText {
+  color: var(--customOrangeColor);
+  font-weight: 600;
+}
+
+.actionBtnContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.actionBtnContainer div:first-child {
+  font-weight: 600;
+  color: var(--customOrangeColor);
+}
+
+.actionBtnContainer div:nth-child(2) {
+  font-weight: 600;
+  color: var(--customBlueTextColor);
+}
+
+.packageDetails,
+.courseDetails {
+  font-size: 12px;
+}
+.courseDetails {
+  margin: 5px 0;
+}
+
+.text {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.PackageDetails {
+  margin: 1px;
+}
+
+.circle {
+  border-radius: 50%;
+  background-color: var(--customOrangeColor);
+  width: 10px;
+  height: 10px;
+}
+
+.reviewTagContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  color: var(--customPinkTextColor);
+  cursor: pointer;
+  background-color: var(--customLightPinkBgColor);
+  padding: 2px;
+  border-radius: 15px;
+}
+
+.reviewAbout {
+  font-size: 12px;
+  margin: 5px 0;
+}
+
+.logoContainer {
+  display: flex;
+  padding: 2px;
+  border-left: 2px solid;
+  background-color: var(--customLightBlueBgColor);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin: 5px 0;
+  color: var(--customBlueTextColor);
+}
+
+.iconBtn {
+  display: flex;
+  align-items: center;
+  gap: 1px;
+}
+
+/* spinner */
+.spinner_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spinner_icon {
+  animation: 1.5s linear infinite spinner;
+}
+
+@keyframes spinner {
+  0% {
+    transform: translate3d(-50%, -50%, 0) rotate(0deg);
+  }
+  100% {
+    transform: translate3d(-50%, -50%, 0) rotate(360deg);
+  }
+}
+
+.messageText {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  color: var(--customOrangeColor);
+}
