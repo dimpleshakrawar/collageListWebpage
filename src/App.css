@@ -1,3 +1,8 @@
+.task1BgColor {
+  padding: 1rem;
+  background-color: #dadbd6;
+}
+
 .tableCollageNameCell {
   display: flex;
   gap: 1rem;

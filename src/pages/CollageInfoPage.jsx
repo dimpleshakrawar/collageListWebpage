@@ -4,7 +4,6 @@ import { useDispatch, useSelector } from "react-redux";
 import CollageListTable from "../components/CollageListTable";
 import SearchCollage from "../components/SearchCollage";
 import { nextPage } from "../store/collageDataSlice";
-import "../styles/globalStyles.css";
 
 export default function CollageInfoPage() {
   const dispatch = useDispatch();
